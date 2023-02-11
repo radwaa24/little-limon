@@ -1,0 +1,73 @@
+
+  .confirmation-header {
+        text-align: center;
+        color: white;
+        margin:0 0;
+  }
+  .reserve-header-text {
+    background-color: #495E57;
+    padding: 3rem ;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+  }
+.text-section{
+    background:url("../images/reservation/food5.jpeg") no-repeat ;
+    background-size: cover;
+    height: auto;
+    padding: 5rem;
+    
+}
+  .confirmation-image {
+        height: 70vh; /* height of container */
+        width: 100%;
+        object-fit: cover;
+  }
+
+  .redirect-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12vw;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .redirect-button {
+    background-color: #464646;
+    color: white !important;
+    padding: 2vh 2rem 2vh 2rem;
+    border-radius: 0.5rem;
+    min-width: 12vw;
+    font-family: 'Karla';
+    font-size: 18px;
+  }
+
+  .redirect-button:hover {
+    background-color: #F4CE14;
+    color:#464646 !important;
+    transition: 0.2s;
+  }
+@media(max-width: 960px){
+ .confirmation-header {
+        
+        margin:0 -8rem;
+  }
+    .redirect-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12vw;
+    position: absolute;
+    bottom: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media(max-width: 517px){
+ .confirmation-header {
+        margin:0 -6rem;
+  }
+  .text-section{
+    margin:0 0 2rem 0
+  }
+}

@@ -1,0 +1,65 @@
+.testimo {
+    padding:2rem;
+    margin: 2rem 0 0 0 ;
+    background-color: var(--Gr);
+    height:auto;
+}
+.title_test h1{
+    font-size: 3rem;
+   font-weight: 500;
+   line-height: 43px;
+   text-align: center;
+}
+.Clients{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin:5rem 2rem;
+    
+}
+.Ratting{
+    font-size: 2rem;
+    margin: 0.1rem 0;
+}
+.Ratting span{
+    color: yellow;
+}
+.photo img{
+    width:4rem;
+    height:4rem;
+    border-radius: 45%;
+    -webkit-border-radius: 45%;
+    -moz-border-radius: 45%;
+    -ms-border-radius: 45%;
+    -o-border-radius: 45%;
+}
+.profile h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.Card-profile{
+    align-items: flex-start;
+    background-color: #fff;
+    border: 1px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;;
+    justify-content: space-between;
+    padding: 2rem;
+    width: 200px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    width: 70%;
+    align-items: center;
+}

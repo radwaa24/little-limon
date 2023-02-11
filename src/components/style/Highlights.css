@@ -1,0 +1,67 @@
+
+.title_spec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.title_spec h4{
+    width: 26rem;
+    font-size: 2.5rem;
+    font-family:"Karla";
+    line-height: 46px;
+}
+.specials-Card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1rem;
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+.Card-container{
+    width: 13rem ;
+    font-family: var(--font-p);
+    font-weight: 500;
+    background-color: var(--Wh);
+    border-radius:15px 15px 0 0;
+  -webkit-border-radius:15px 15px 0 0;
+  -moz-border-radius:15px 15px 0 0;
+  -ms-border-radius:15px 15px 0 0;
+  -o-border-radius:15px 15px 0 0;
+}
+
+.Card-img img{ 
+    width:13rem; 
+    height: 8rem;
+     border-radius:15px 15px 0 0;
+}
+.Card-text{
+    display: flex;
+    align-content:flex-start;
+    flex-direction: column;
+    height: 18rem;
+    padding: 0.5rem 1rem;
+}
+.Card-text div:last-of-type{
+    margin-bottom: 0;
+}
+.Card-product{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card-price{
+    color: var(--Or);
+    font-family: 'Karla';
+    font-weight: 700;
+}
+.Card-description{
+    color: var(--Gry);
+}
+.Card-plus{
+    font-weight: 700;
+    margin-top: auto
+}
